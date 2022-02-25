@@ -1,0 +1,53 @@
+/* style={{ width: "18rem", height: "18rem" }} */
+/* TOP RIGHT BOTTOM LEFT */
+
+/* Home.js */
+.jumbcard {
+  background-color: #0066b2;
+  margin-top: 1%;
+  padding: 1% 5%;
+}
+.jumbotron {
+  border-radius: 25px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+  margin: 0% 3%;
+}
+.cardg {
+  border-radius: 25px;
+  box-shadow: 0 6px 10px 0 rgba(0, 0, 0, 0.2), 0 8px 22px 0 rgba(0, 0, 0, 0.19);
+}
+.cardi {
+  background-color: #0066b2;
+}
+/* Home.js */
+
+/*Information.js */
+.cardb {
+  margin: 1% 3%;
+}
+.acc {
+  margin: 2% 3%;
+  background-color: #0066b2;
+}
+.description{
+  background-color: #0066b2;
+  color: whitesmoke;
+  font-weight: bolder;
+}
+h1{
+  text-shadow: 2px 2px 8px #575656;
+  font-weight: bolder;
+  color: #0066b2;
+}
+.title{
+  font-weight:900;
+  color: black;
+}
+/*Information.js */
+
+/*Form.js */
+.foms {
+  display: inline-block;
+  margin-top: 2%;
+}
+/*Form.js */
