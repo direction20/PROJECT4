@@ -3,7 +3,7 @@ import "./style/Home.css";
 import Navs from "../components/Navs";
 import Footer from "../components/Footer";
 
-import { Container, Card, Row, Col } from "react-bootstrap";
+import { Container, Card, CardGroup } from "react-bootstrap";
 
 function Home() {
   return (
@@ -14,51 +14,57 @@ function Home() {
         {/* JUMBOTRON */}
         <div class=" jumbotron p-5 mb-4 bg-light rounded-5">
           <div class="container-fluid py-5">
-            <h1 class="display-5 fw-bold">Custom jumbotron</h1>
+            <h1 class=" display-5 fw-bold">Breed is Stronger than Pasture</h1>
             <p class="col-md-8 fs-4">
-              Using a series of utilities, you can create this jumbotron, just
-              like the one in previous versions of Bootstrap. Check out the
-              examples below for how you can remix and restyle it to your
-              liking.
+            Like many chronic conditions, Genetic Conditions may require continual attention and lack 
+            cures or treatments.
             </p>
-            <button class="btn btn-primary btn-lg" type="button">
-              Example button
-            </button>
           </div>
         </div>
         {/* JUMBOTRON */}
 
         {/* CARD-GROUP */}
-        <Row xs={1} md={3} className="g-4">
-          {Array.from({ length: 3 }).map((_, idx) => (
-            <Col>
-              <Card className="cardg">
-                <Card.Body>
-                  <Card.Title>Card title</Card.Title>
-                  <Card.Text>
-                    This is a longer card with supporting text below as a
-                    natural lead-in to additional content. This content is a
-                    little bit longer.
-                  </Card.Text>
-                </Card.Body>
-              </Card>
-            </Col>
-          ))}
-        </Row>
+        <CardGroup>
+          <Card className="cards1" 
+          style={{  height: "12rem",marginRight:"4px",borderTopRightRadius:"30px",borderBottomLeftRadius:"30px"}}>
+            <Card.Body>
+              {/* <Card.Title className="title">Information</Card.Title> */}
+              <h1 className="title">Information</h1>
+            </Card.Body>
+          </Card>
+
+          <Card className="cards2" 
+          style={{  height: "12rem",marginRight:"4px",borderTopRightRadius:"20px",borderBottomLeftRadius:"30px"}}>
+            <Card.Body>
+              {/* <Card.Title className="title">Prediction</Card.Title> */}
+              <h1 className="title">Prediction</h1>
+            </Card.Body>
+          </Card>
+
+          <Card className="cards3" 
+          style={{  height: "12rem",marginRight:"4px",borderTopRightRadius:"20px",borderBottomLeftRadius:"30px"}}>
+            <Card.Body>
+              {/* <Card.Title className="title">Consultation</Card.Title> */}
+              <h1 className="title">Consultation</h1>
+            </Card.Body>
+          </Card>
+        </CardGroup>
         {/* CARD-GROUP */}
       </Container>
-
       {/* IMAGE-CARD */}
-      <div class="cardi jumbotron p-3 mb-4 mt-5 rounded-5 text-white">
+      <div class="cardi jumbotron text-center p-3 mb-4 mt-5 rounded-5 text-white">
         <div class="container-fluid py-5">
-          <h1 class="display-5 fw-bold">Custom jumbotron</h1>
-          <p class="col-md-8 fs-4">
-            Using a series of utilities, you can create this jumbotron, just
-            like the one in previous versions of Bootstrap. Check out the
-            examples below for how you can remix and restyle it to your liking.
+          <h1 class="display-5 fw-bold">Breed is Stronger than Pasture</h1>
+          <p class="para">
+          Like many chronic conditions, Genetic Conditions may require continual attention and lack 
+            cures or treatments. Low awareness of the importance of genetic testing 
+            contributes to the increase in the incidence of hereditary disorders. 
+            Many children succumb to these disorders and it is extremely important 
+            that genetic testing be done during pregnancy.
           </p>
-          <button class="btn btn-primary btn-lg" type="button">
-            Example button
+          <button class="btn btn-light btn-lg"type="button">
+            <a className="abut" href="/" >Get More Information</a>
+            
           </button>
         </div>
       </div>

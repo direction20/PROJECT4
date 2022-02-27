@@ -19,7 +19,7 @@ function Forms() {
   return (
     <>
       <Navs />
-      <Container>
+      <Container className="foco">
         <Form
           noValidate
           validated={validated}

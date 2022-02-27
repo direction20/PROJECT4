@@ -11,7 +11,7 @@ function Information() {
     <>
       <Navs />
       {/* QNA */}
-      <h1 className="text-center mt-2">FAQ</h1>
+      <h1 className="h1 text-center mt-2">FAQ</h1>
       <Accordion className="acc" defaultActiveKey="0" flush>
         <Accordion.Item eventKey="0">
           <Accordion.Header>What is Genetic Disorder ?</Accordion.Header>

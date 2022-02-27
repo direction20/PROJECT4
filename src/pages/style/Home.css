@@ -1,6 +1,5 @@
 /* style={{ width: "18rem", height: "18rem" }} */
 /* TOP RIGHT BOTTOM LEFT */
-
 /* Home.js */
 .jumbcard {
   background-color: #0066b2;
@@ -19,6 +18,22 @@
 .cardi {
   background-color: #0066b2;
 }
+.abut{
+  color: #0066b2;
+  text-decoration: none;
+  font-weight: bolder;
+}
+.title{
+  text-align: center;
+  margin-top: 3rem;
+}
+.cards1{
+}
+.cards2{
+}
+.cards3{
+}
+
 /* Home.js */
 
 /*Information.js */
@@ -34,7 +49,7 @@
   color: whitesmoke;
   font-weight: bolder;
 }
-h1{
+.h1{
   text-shadow: 2px 2px 8px #575656;
   font-weight: bolder;
   color: #0066b2;
@@ -49,5 +64,7 @@ h1{
 .foms {
   display: inline-block;
   margin-top: 2%;
+}
+.foco{
 }
 /*Form.js */
